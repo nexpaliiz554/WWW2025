@@ -62,7 +62,7 @@ Specifically, our approach first leverages the overall-polarity-labeled data to 
 
 - *For the classifier in stage one*:
 
-1. If you wish to reproduce our paper's data, you can download our pre-trained models from [NexpaLiiz554/SESAME on Hugging Face](https://huggingface.co/NexpaLiiz554/SESAME-WWW2025/tree/main) (the four models in the provided link serve as the foundational models for our ablation experiments).
+1. If you wish to reproduce our paper's data, you can download our pre-trained models from [NexpaLiiz554/SESAME on Hugging Face](https://huggingface.co/NexpaLiiz554/SESAME-WWW2025/tree/main) (the four models in the provided link serve as the foundational models for our ablation experiments), and place them in the ```data/pretrained```.
 2. If you intend to retrain the classifier, for English, please download the pre-trained RoBERTa model from  [HuggingFace](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment/tree/main), and for Chinese, please download it from [ymcui/Chinese-BERT-wwm](https://github.com/ymcui/Chinese-BERT-wwm).
 
 - *For the extraction of representative words in the second stage*:
